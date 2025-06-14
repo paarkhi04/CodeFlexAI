@@ -4,12 +4,6 @@ import { useUser } from "@clerk/nextjs";
 import ProfileHeader from "@/components/ProfileHeader";
 import CornerElements from "@/components/CornerElements";
 import { AppleIcon, DumbbellIcon } from "lucide-react";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs";
 
 const dummyPlans = [
   {
